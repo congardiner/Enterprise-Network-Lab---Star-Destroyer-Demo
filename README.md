@@ -2,7 +2,12 @@
 
 This repository contains a fully fictional, enterprise network design based on an **Imperial I‑class Star Destroyer**. It is structured like a real corporate network (HQ, datacenter, branch sites, DMZ, WAN edge) but uses Star Wars–themed naming to showcase routing, switching, security, and operations skills without revealing any confidential information or resemblence to an enterprise network. 
 
-## Highlights
+
+## Image of the Star Destroyer Network Topology
+
+[Star Destroyer Network Topology](topology/star_destroyer_topology-v1.png)
+
+## Highlights for this Project:
 
 - Hierarchical campus design (core, distribution, access) to keep everything simplified
 - Segmentation using VLANs, security zones, and optional VRFs
@@ -15,7 +20,7 @@ This repository contains a fully fictional, enterprise network design based on a
 ## Repository Structure
 
 - `topology/`
-  - Logical and physical topology diagrams (Draw.io)
+  - Logical and physical topology diagram (Star Destroyer network)
   - IP addressing and VLAN/segmentation plans
 - `configs/`
   - Device configs by functional area (Command Sector, Data Core, Hangar, Crew, Guest, Holonet Edge)
@@ -29,4 +34,4 @@ This repository contains a fully fictional, enterprise network design based on a
 
 - This personal project was solely created out of interest of exploring L2 / L3 hierarchy in an enterprise setting, as creating the topology, while establishing a workflow for how this could be built-out in a Star Destroyer was the real-deal. 
 
-Disclaimer: All names, IP addresses, and systems are fictional and created solely for demonstration, as again I wanted to create an enterprise network complete with all interworking appendages. If you have any feedback or would like to suggest improvements to this current process, please let me know!
+**Disclaimer**: All names, IP addresses, and systems are fictional and created solely for demonstration, as again I wanted to create an enterprise network complete with all interworking appendages. If you have any feedback or would like to suggest improvements to this current process, please let me know!
