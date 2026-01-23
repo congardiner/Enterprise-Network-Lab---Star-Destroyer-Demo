@@ -1,11 +1,11 @@
-# Star Destroyer Enterprise Network (Fictional Lab)
+# Star Destroyer Enterprise Network -
 
-This repository contains a fully fictional, enterprise network design based on an **Imperial I‑class Star Destroyer**. It is structured like a real corporate network (HQ, datacenter, branch sites, DMZ, WAN edge) but uses Star Wars–themed naming to showcase routing, switching, security, and operations skills without revealing any confidential information or resemblence to an enterprise network. 
+This repository contains a fully fictional, enterprise network design based on an **Imperial I‑class Star Destroyer**. It is structured like a real corporate network (HQ, datacenter, branch sites, DMZ, WAN edge) but uses Star Wars–themed naming to showcase routing, switching, security, and operations skills without revealing any confidential information or resemblence to an enterprise network. I wanted to create something that could enable me to practice designing a fully functional lab, while also enjoying the elaborate process, this is where my Star Destroyer Enterprise Network was born; for demo purposes, the topology is entirely fictional and is not intended to represent an actual network topology within a Star Destroyer as this is simply a work of my own.
 
 
 ## Image of the Star Destroyer Network Topology
 
-[Star Destroyer Network Topology](topology/star_destroyer_topology-v1.png)
+![Star Destroyer Topology](topology/star-destroyer-network-topology-v1.png)
 
 ## Highlights for this Project:
 
