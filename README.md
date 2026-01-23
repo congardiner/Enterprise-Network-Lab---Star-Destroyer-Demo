@@ -5,7 +5,9 @@ This repository contains a fully fictional, enterprise network design based on a
 
 ## Image of the Star Destroyer Network Topology
 
-![Star Destroyer Topology](topology/star-destroyer-network-topology-v1.png)
+<p align="center">
+  <img src="topology/star-destroyer-network-topology-v1.png" alt="Star Destroyer Network Topology" width="70%">
+</p>
 
 ## Highlights for this Project:
 
