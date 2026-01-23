@@ -69,7 +69,7 @@ Redundancy is showcased using:
 
 ### 4. Security Zones and Firewalls
 
-Security zones (conceptual):
+Security zones (conceptual theory):
 
 - **COMMAND_ZONE** – bridge and command pit
 - **DATACORE_ZONE** – critical control and data servers
@@ -105,4 +105,3 @@ The following files complement this document:
 - IP addressing plan: `topology/ip-addressing-plan.md`
 - VLAN & segmentation detail: `topology/vlan-and-segmentation-plan.md`
 
-> **Tip for reviewers:** This design is fictional but built and documented exactly as a real enterprise network would be, allowing it to showcase routing, switching, security, and operations skills without exposing any confidential information.

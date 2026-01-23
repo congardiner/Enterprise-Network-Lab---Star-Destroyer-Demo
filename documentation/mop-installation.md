@@ -1,12 +1,12 @@
 # Method of Procedure (MOP) – Star Destroyer Network Deployment
 
-This MOP describes how to deploy the fictional Imperial I‑class Star Destroyer enterprise network from a greenfield lab environment. It is written in a professional style suitable for real-world change windows, but all systems and names are fictional.
+This MOP describes how to deploy the Imperial I‑class Star Destroyer enterprise network from a greenfield lab environment. It is written in a professional style suitable for real-world change windows, but all systems and names are fictional.
 
-## 1. Purpose
+## 1. Purpose of this Mop
 
 Deploy the core routing, switching, and security components of the Star Destroyer network, ensuring basic connectivity, segmentation, and monitoring are in place.
 
-## 2. Scope
+## 2. Scope of Mop
 
 - Core and distribution switches in the Data Core and Command Sector
 - Holonet edge router and perimeter firewall pair (logical)
@@ -91,25 +91,26 @@ Deploy the core routing, switching, and security components of the Star Destroye
 
 ### Step 6 – Configure Logging and Monitoring
 
-6.1 On all infrastructure devices:
+6.1 On all infrastructure devices do this:
 
 - Configure syslog to `10.90.90.10`.
 - Configure SNMP/telemetry toward the NMS in the MGMT VLAN.
 
-6.2 On the NMS server (fictional or real tool):
+6.2 On the NMS server:
 
-- Discover devices via SNMP.
+- Discover devices via SNMP (goal and intent).
 - Configure basic alarms for link down, CPU/memory, and BGP/OSPF neighbor loss.
 
-### Step 7 – Validation
+### Step 7 – Validation of all previous steps
 
-Perform the tests listed in `documentation/post-validation-checklist.md` and record results. Capture screenshots or command outputs as evidence for your portfolio.
+Perform the tests listed in `documentation/post-validation-checklist.md` and record results. 
 
 ## 6. Rollback Plan
 
 - If any critical issue occurs before Holonet edge turn-up, shut down all uplink interfaces and restore the last known-good configuration on core and distribution devices.
 - If the firewall or edge deployment causes issues, remove the default route pointing to the edge and restore internal-only routing.
 
-## 7. Notes
+## 7. Commentary
 
-- This MOP is for demonstration purposes; timing and approvals would be customized for a real environment.
+- This MOP is for demonstration purposes; timing and approvals would be customized for a real environment, including coordination with change management.
+- In a production environment, additional steps for redundancy, high availability, and security hardening would be necessary.

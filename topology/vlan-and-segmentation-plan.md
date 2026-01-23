@@ -1,6 +1,6 @@
 # VLAN and Segmentation Plan – Star Destroyer
 
-This document describes the VLAN, VRF, and security zone mapping for the Star Destroyer enterprise network.
+This document describes the VLAN, VRF, and security zone mapping for the Star Destroyer enterprise network, its various locations, and services; designed to ensure proper segmentation, security, and operational efficiency which was the primary goal during the network design phase that I undertook.
 
 ## 1. VLAN Table
 
@@ -32,8 +32,6 @@ To showcase advanced segmentation, you may implement VRFs:
 - **VRF MGMT** – VLAN 90
 - **VRF DMZ** – VLAN 70, HOLO-UPLINK P2P
 
-Alternatively, a simpler single global routing table may be used with security enforced by firewalls and ACLs.
-
 ## 3. Security Policy Summary
 
 - **COMMAND_ZONE**
@@ -58,3 +56,4 @@ Alternatively, a simpler single global routing table may be used with security e
 - VLANs are implemented on distribution switches with SVIs.
 - Default gateways use HSRP/VRRP for redundancy.
 - Security zones are implemented on the perimeter and internal firewalls.
+- Routing policies enforce VRF boundaries and inter-zone access controls.
